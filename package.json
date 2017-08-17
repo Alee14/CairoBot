@@ -1,0 +1,22 @@
+{
+  "name": "pugcraft-bot",
+  "version": "1.0.8",
+  "description": "A discord bot written in node.js",
+  "main": "mc-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PugCraftDevs/PugCraft-Bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PugCraftDevs/PugCraft-Bot/issues"
+  },
+  "homepage": "https://github.com/PugCraftDevs/PugCraft-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
