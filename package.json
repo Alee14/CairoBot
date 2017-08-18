@@ -18,6 +18,7 @@
   "homepage": "https://github.com/PugCraftDevs/PugCraft-Bot#readme",
   "dependencies": {
     "discord.js": "^11.1.0",
+    "profanities": "^2.5.0",
     "request": "^2.81.0"
   }
 }

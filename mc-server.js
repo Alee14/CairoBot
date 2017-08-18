@@ -16,7 +16,7 @@ client.on("guildMemberAdd", function(member) {
 });
 
 client.on("guildMemberRemove", function(member) {
-	member.guild.channels.find("name", "welcome-and-bye").sendMessage(member.toString() + ", just left the server");
+	member.guild.channels.find("name", "welcome-and-bye").sendMessage(`It was nice knowing you **${member.user.username}**, Goodbye **${member.user.username}**.`);
 });
 
 
