@@ -9,7 +9,9 @@ var mcIP = '167.114.103.191';
 var mcPort = 29239;
 var suggestStates = {};
 
-client.on("ready", () => client.user.setGame("For help: pug:help"));
+client.on("ready", () => { 
+	client.user.setPresence({ game: { name: 'For help: pug:help', type: 0 } });
+});
 
 client.on("guildMemberAdd", function(member) {
 	member.guild.channels.find("name", "welcome-and-bye").sendMessage(member.toString() + ", Welcome to the PugCraft Server! Have a great time here :wink:");
