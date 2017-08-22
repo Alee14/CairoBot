@@ -5,11 +5,11 @@ const config = require('./config.json')
 
 var prefix = "pug:";
 var ver = "1.0.8";
-var mcIP = '167.114.103.191';
-var mcPort = 29239;
+var mcIP = '158.69.18.113';
+var mcPort = 25565;
 var suggestStates = {};
 
-client.on("ready", () => { 
+client.on("ready", () => {
 	client.user.setPresence({ game: { name: 'For help: pug:help', type: 0 } });
 });
 
